@@ -122,7 +122,7 @@ plot(1:10,
      main = paste('The Elbow Method'),
      xlab = 'Number of clusters',
      ylab = 'WCSS')
-
+#URL of image:  https://github.com/koladeakinbamijo/RevoscalerClustering/blob/master/ElbowMethod.png
 
 #From the plot, the optimum number of clusters is 6
 #carry out kmeans clustering, NOTE that the rxkmeans function will append a new column that contains the cluster each
@@ -143,3 +143,4 @@ dataset$Cluster = dataset_cluster$Clusterno
 library(ggplot2)
 gg <- ggplot(dataset, aes(x=Cluster,fill=factor(Cluster)))
 gg + geom_bar()+ scale_fill_brewer(palette="Blues") + labs(title="Cluster Frequency", x="Clusters", y="Number of Customers")  
+#URL of image:  https://github.com/koladeakinbamijo/RevoscalerClustering/blob/master/CLusterDistribution.png
