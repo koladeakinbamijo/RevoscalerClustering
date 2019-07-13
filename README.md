@@ -1,0 +1,2 @@
+# RevoscalerClustering
+This project entails the use of the Revoscaler Library to implement a K-means clustering Algorithm. The Revoscaler library comes in handy when handling big data as it enables R to run various algorithms without having to lead the dataset in memory. More on the Revoscaler library can be found here: https://docs.microsoft.com/en-us/machine-learning-server/r-reference/revoscaler/revoscaler
